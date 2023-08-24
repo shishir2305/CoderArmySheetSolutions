@@ -1,6 +1,8 @@
 // find missing element in an array
 
 // algorithm -> add all the elements of the array and add all the numbers from 1 to n, then subtract both the resultant is the answer, since the missing number will be the difference between the array sum and total sum
+// t.c. -> O(n)
+// s.c. -> O(n)
 
 #include <bits/stdc++.h>
 using namespace std;
