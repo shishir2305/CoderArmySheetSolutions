@@ -22,7 +22,7 @@ int countPrimes(int n)
         {
             count++;
 
-            // check and mark all the number divisible by this number
+            // check and mark all the numbers divisible by this number
             for (int j = 2 * i; j < n; j = j + i)
             {
                 prime[j] = 0;
