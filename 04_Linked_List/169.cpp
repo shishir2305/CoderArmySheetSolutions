@@ -4,7 +4,7 @@
 // t.c -> O(n)
 // s.c -> O(1)
 
-// algorithm 2-> use the concept of slow and fast pointer
+// algorithm 2-> use the concept of slow and fast pointer (floyd cycle detection algorithm)
 // t.c -> O(n)
 // s.c -> O(1)
 
