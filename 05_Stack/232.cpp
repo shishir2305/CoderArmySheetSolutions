@@ -13,7 +13,7 @@ using namespace std;
 
 vector<long long> nextLargerElement(vector<long long> arr, int n)
 {
-    vector<long long> ans;
+    vector<long long> ans(n);
     stack<long long> st;
     for (int i = n - 1; i >= 0; i--)
     {
@@ -23,16 +23,15 @@ vector<long long> nextLargerElement(vector<long long> arr, int n)
         }
         if (st.empty())
         {
-            ans.push_back(-1);
+            ans[i] = (-1);
             st.push(arr[i]);
         }
         else
         {
-            ans.push_back(st.top());
+            ans[i] = st.top();
             st.push(arr[i]);
         }
     }
-    reverse(ans.begin(), ans.end());
     return ans;
 }
 
