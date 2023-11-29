@@ -1,6 +1,6 @@
 ## DSA Practice - 500+ Questions
 
-This repository is dedicated to practicing Data Structures and Algorithms (DSA) through "500+ DSA Questions" provided by Coder Army sheet created by Rohit Negi(Uber). The sheet contains a comprehensive collection of DSA problems designed to enhance your problem-solving skills, algorithmic thinking, and coding abilities along with their solutions.
+This repository is dedicated to practicing Data Structures and Algorithms (DSA) through "500+ DSA Questions" provided by Coder Army sheet created by Rohit Negi(Uber). The sheet contains a comprehensive collection of DSA problems designed to enhance your problem-solving abilities, algorithmic thinking, and coding abilities along with their solutions.
 
 ## About the Sheet
 
