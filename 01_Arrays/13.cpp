@@ -6,11 +6,14 @@
 
 // algorithm 2 -> use the sorted property to optimize search, start from low=0,
 // and high =n-1 and keep traversing from right side and check if x is greater
-// than the current element then increase the low else decrease high t.c ->
-// O(n+m) s.c -> O(1)
+// than the current element then increase the low else decrease high
+// t.c -> O(n+m)
+// s.c -> O(1)
 
 // algorithm 3 -> treat entire matrix as 1d array ,low=0 and high=n*m-1 and
-// search element in this space t.c -> O(log(n*m)) s.c -> O(1)
+// search element in this space
+// t.c -> O(log(n*m))
+// s.c -> O(1)
 
 #include <bits/stdc++.h>
 using namespace std;
