@@ -12,21 +12,16 @@
 using namespace std;
 
 int maxProduct(vector<int> &nums) {
-  pair<int, int> first = {INT_MIN, -1};
-  pair<int, int> second = {INT_MIN, -1};
+  int maxA = INT_MIN, maxB = INT_MIN;
   for (int i = 0; i < nums.size(); i++) {
-    if (first.first < nums[i]) {
-      first.first = nums[i];
-      first.second = i;
+    if (maxA < nums[i]) {
+      maxB = maxA;
+      maxA = nums[i];
+    } else if (maxB < nums[i]) {
+      maxB = nums[i];
     }
   }
-  for (int i = 0; i < nums.size(); i++) {
-    if (second.first < nums[i] && i != first.second) {
-      second.first = nums[i];
-      second.second = i;
-    }
-  }
-  return (first.first - 1) * (second.first - 1);
+  return (maxA - 1) * (maxB - 1);
 }
 
 int main() { return 0; }
